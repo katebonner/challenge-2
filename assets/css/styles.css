@@ -217,6 +217,20 @@ a {
     text-align:center;
 }
 
+/* WORK */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.square {
+    width: 30%;
+    height: 30%;
+    margin: 10% 5% 0 5%;
+}
+
 
 /* CONTACT */
 
