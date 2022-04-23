@@ -22,7 +22,7 @@ a {
     justify-content: center;
 }
  
-/* HEADER SELECTORS */
+/* HEADER SELECTORS (HEADER OPTION 1) */
 .header {
     display: flex;
     flex-wrap: wrap;
@@ -61,8 +61,6 @@ a {
 }
 
 /* HOME PAGE IMAGES */
-
-
 .flex-container {
     display:flex;
     flex-wrap: wrap;
@@ -164,6 +162,55 @@ a {
 }
 
 
+@media screen and (max-width: 600px){
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .smile-index {
+        height: 20%;
+        width: 20%;
+        margin:0;
+    }
+    .smile-index:hover {
+        height: 21%;
+        width: 21%;
+    }
+
+    .about-index {
+        height: 40%;
+        width: 40%;
+        margin:10% 0 0 0;
+        z-index: 5;
+    }
+
+    .about-index:hover {
+        height: 41%;
+        width: 41%;
+    }
+
+    .work-index {
+        height: 80%;
+        width: 80%;
+        margin:-16%;
+    }
+
+    .work-index:hover {
+        height: 81%;
+        width: 81%;
+    }
+
+    .contact-index {
+        height: 40%;
+        width: 40%;
+        margin:-5%;
+    }
+    .contact-index:hover {
+        height: 41%;
+        width: 41%;
+    }
+}
 
 
 /* P5.JS SKETCH SELECTORS*/
@@ -218,7 +265,6 @@ a {
 }
 
 /* WORK */
-
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -231,12 +277,23 @@ a {
     margin: 10% 5% 0 5%;
 }
 
+.caption {
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    margin: 0 5% 0 5%;
+}
+
 
 /* CONTACT */
-
 .mail {
     height: 15%;
     width: 15%;
-    margin-top: 10%;
+    margin-top: 5%;
+}
+
+.mail:hover {
+    height: 16%;
+    width: 16%;
 }
 
