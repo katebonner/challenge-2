@@ -212,7 +212,7 @@ a {
     }
 }
 
-
+/* ABOUT */
 /* P5.JS SKETCH SELECTORS*/
 .draw {
     height:600px;
@@ -227,6 +227,12 @@ a {
     height:100%; 
     border:none; 
     z-index:1;
+}
+
+@media screen and (max-width: 800px) {
+    .draw {
+        display: none;
+    }
 }
 
 /* PAGES */
@@ -264,7 +270,21 @@ a {
     text-align:center;
 }
 
-/* ABOUT */
+@media screen and (max-width: 800px) {
+    .section-header {
+        font-size: 10vw;
+        border: none;
+        margin: 0 0 0 7%;
+    }
+
+    .section-sub-header {
+        font-size: 6vw;
+    }
+
+    .section-text {
+        font-size: 4vw;
+    }
+}
 
 
 /* WORK */
@@ -287,6 +307,24 @@ a {
     margin: 0 5% 0 5%;
 }
 
+@media screen and (max-width: 800px) {
+    .gallery {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .square {
+        width: 60%;
+        height: 60%;
+        margin: 10%;
+    }
+
+
+    .caption {
+        display: none;
+    }
+}
+
 
 /* CONTACT */
 .mail {
@@ -300,3 +338,10 @@ a {
     width: 16%;
 }
 
+@media screen and (max-width: 800px) {
+    .mail {
+        height: 40%;
+        width: 40%;
+        margin-top: 10%;
+    }
+}
