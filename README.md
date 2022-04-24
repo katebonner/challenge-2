@@ -1,19 +1,85 @@
 # Columbia University Coding Bootcamp - 02 Advanced CSS Challenge 2: Portfolio
 
-##Description
+## Description
 
+This project is the first iteration of my working portfolio.
+
+![home page desktop scale](./README-images/home-desktop.png)
+![home page ipad scale](./README-images/home-ipad.png)
+![home page mobile scale](./README-images/home-mobile.png)
+
+
+
+**Copied here is a link to the deployed application:**
+(https://github.com/katebonner/challenge-2)
+
+
+## Table of Contents 
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+
+
+## Installation
+
+To install this project, navigate to your comand line console (for simplicity we will assume you are using terminal) and:
+
+Create a directory in which this project can live.
+```md
+mkdir <directory-name>
 ```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+Open the directory you just created.
+```md
+cd <directory-name>
 ```
+Clone this repository.
+```md
+git clone git@github.com:katebonner/challenge-2.git
+```
+Open the directory you have just created in your code editor of choice either manually or via:
+```md
+code .
+```
+
+## Usage
+
+This project can be used as refrence when creating your own portfolio. 
+
+
+![about me page](./README-images/about.png)
+![work page](./README-images/work.png)
+![contact me page](./README-images/contact.png)
+
+
+## Credits
+
+This site was built using [GitHub Pages](https://pages.github.com/).
+
+
+## License
+
+MIT License
+
+Copyright (c) [2022] [Kate Bonner]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
