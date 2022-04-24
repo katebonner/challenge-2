@@ -354,4 +354,9 @@ a {
         width: 40%;
         margin-top: 10%;
     }
+
+    .mail:hover {
+        height: 41%;
+        width: 41%;
+    }
 }
