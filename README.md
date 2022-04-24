@@ -4,13 +4,13 @@
 
 This project is the first iteration of my creative working portfolio. This iteration presents a basic structure to host a landing page, an 'about' page, a 'work' page with placeholders for future linked applications, and a 'contact' page. The user interface adapts to the user's device, or rather, their screen's width dimension. For reference, I have attached images of the landing page at 3 different screen width ranges:
 
-### Desktop
+### Large Width
 ![home page desktop scale](./README-images/home-desktop.png)
 
-### Tablet
+### Medium Width
 ![home page tablet scale](./README-images/home-tablet.png)
 
-### Mobile
+### Small Width
 ![home page mobile scale](./README-images/home-mobile.png)
 
 
