@@ -2,12 +2,16 @@
 
 ## Description
 
-This project is the first iteration of my working portfolio.
+This project is the first iteration of my creative working portfolio. This iteration presents a basic structure to host a landing page, an 'about' page, a 'work' page with placeholders for future linked applications, and a 'contact' page. The user interface adapts to the user's device, or rather, their screen's width dimension. For reference, I have attached images of the landing page at 3 different screen width ranges:
 
+### Desktop
 ![home page desktop scale](./README-images/home-desktop.png)
-![home page ipad scale](./README-images/home-ipad.png)
-![home page mobile scale](./README-images/home-mobile.png)
 
+### Tablet
+![home page tablet scale](./README-images/home-tablet.png)
+
+### Mobile
+![home page mobile scale](./README-images/home-mobile.png)
 
 
 **Copied here is a link to the deployed application:**
@@ -45,12 +49,25 @@ code .
 
 ## Usage
 
-This project can be used as refrence when creating your own portfolio. 
+This project can be used as refrence when creating your own portfolio to accomplish the following visual and structural tasks:
 
+* Adding a favicon
+* Creating css media queries to adapt to different screen widths
+* Linking multiple html pages together in a closed loop
+    * Note: I present two versions of navigation (the first is commented out)
+* Using flexbox on linked images
 
 ![about me page](./README-images/about.png)
+
+* Embedding an iframe object -- note: this iframe links to a p5.js project that generates text for any given cursor path
+
 ![work page](./README-images/work.png)
+
+* Linking a silent video to play on loop for any OS
+
 ![contact me page](./README-images/contact.png)
+
+* Linking to an email with a pre-populated subject field
 
 
 ## Credits
