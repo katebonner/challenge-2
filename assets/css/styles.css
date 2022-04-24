@@ -328,10 +328,8 @@ a {
     }
 
     .alt-caption {
-        display:flex;
-        justify-content: center;
-        margin:0;
-        padding:0;
+        display:block;
+        text-align: center;
     }
 }
 
