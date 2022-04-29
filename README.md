@@ -15,7 +15,7 @@ This project is the first iteration of my creative working portfolio. This itera
 
 
 **Copied here is a link to the deployed application:**
-(https://github.com/katebonner/challenge-2)
+(https://katebonner.github.io/challenge-2/)
 
 
 ## Table of Contents 
