@@ -17,10 +17,18 @@ a {
     height: 200px;
 }
 
+.headshot-img {
+    height:100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+
 .center {
     display: flex;
     justify-content: center;
 }
+
  
 /* HEADER SELECTORS (HEADER OPTION 1) */
 .header {
