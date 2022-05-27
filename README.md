@@ -15,7 +15,7 @@ This project is the first iteration of my creative working portfolio. This itera
 
 
 **Copied here is a link to the deployed application:**
-(https://katebonner.github.io/challenge-2/)
+(https://katebonner.github.io/portfolio/)
 
 
 ## Table of Contents 
@@ -40,7 +40,7 @@ cd <directory-name>
 ```
 Clone this repository.
 ```md
-git clone git@github.com:katebonner/challenge-2.git
+git clone git@github.com:katebonner/portfolio.git
 ```
 Open the directory you have just created in your code editor of choice either manually or via:
 ```md
