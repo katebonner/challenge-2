@@ -4,8 +4,23 @@
     background-color: #FBFBFB;
 }
 
+#card {
+    margin: 10% 20%;
+    padding: 100px 100px;
+    background-color: rgb(122, 255, 155);
+    border-radius: 15px;
+    box-shadow: 
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, 
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#text {
+    text-align: center;
+}
+
 a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
